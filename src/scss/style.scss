@@ -1,34 +1,4 @@
+@import 'nullstyle.scss';
 @import 'fonts.scss';
-
+@import 'constants.scss';
 @import url('/src/modules/moduls.scss');
-
-body {
-   
-   background: rgb(238, 211, 211);
-   font-size: 162px;
-   font-family: "CormorantUpright";
-   background-image: url(@img/618425f5bbae9.jpg);
-   
-   span {
-      box-shadow: 10px 10px 10px black;
-   }
-   margin: 211px;
-   padding: 11px;
-}
-
-@media (max-width:750px) {
-   body{
-      font-size: 35px;
-   }
-   
-}
-
-@media (max-width:750px) {
-   span{
-      font-size: 15px;
-   }
-   
-}
-
-
-
